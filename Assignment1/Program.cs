@@ -168,20 +168,14 @@
                                                 Console.WriteLine("4. Check " + str + "'s Status");
                                                 Console.WriteLine("5. Exit");
                                                 int choice10 = int.Parse(Console.ReadLine());
-                                                if (choice10 == 2)
+                                                if (choice10 == 3)
 
                                                 {
-                                                    Console.WriteLine("User Input : 2");
-                                                    Console.WriteLine(str + " refusing to play as he is too hungry and should be fed immediately");
-                                                }
-                                                int choice11 = int.Parse(Console.ReadLine());
-                                                if (choice11 == 4)
-                                                {
-                                                    Console.WriteLine("User Input: 4");
-                                                    Console.WriteLine(str + "'s Status:");
-                                                    Console.WriteLine("- Hunger: 3");
-                                                    Console.WriteLine("- Happiness: 8");
-                                                    Console.WriteLine("- Health : 7");
+                                                    time++;
+                                                    Console.WriteLine("User Input: 3");
+                                                    Console.WriteLine(str + " is resting");
+                                                    Console.WriteLine();
+                                                    Console.WriteLine("Total time now spend is :" + time + " hours");
                                                     Console.WriteLine();
                                                     Console.WriteLine("Main Menu:");
                                                     Console.WriteLine("1. Feed " + str);
@@ -189,14 +183,54 @@
                                                     Console.WriteLine("3. Let " + str + " Rest");
                                                     Console.WriteLine("4. Check " + str + "'s Status");
                                                     Console.WriteLine("5. Exit");
+                                                    int choice11=int.Parse(Console.ReadLine());
+                                                    if (choice11 == 4)
+                                                    {
+                                                            Console.WriteLine("User Input: 4");
+                                                            Console.WriteLine(str + "'s Status:");
+                                                            Console.WriteLine("- Hunger: 2");
+                                                            Console.WriteLine("- Happiness: 7");
+                                                            Console.WriteLine("- Health : 6");
+                                                            Console.WriteLine();
+                                                            Console.WriteLine("Main Menu:");
+                                                            Console.WriteLine("1. Feed " + str);
+                                                            Console.WriteLine("2. Play with " + str);
+                                                            Console.WriteLine("3. Let " + str + " Rest");
+                                                            Console.WriteLine("4. Check " + str + "'s Status");
+                                                            Console.WriteLine("5. Exit");
+                                                            int choice12 = int.Parse(Console.ReadLine());
+                                                            if (choice12 == 2)
+                                                            {
 
-                                                }
-                                                int choice12 = int.Parse(Console.ReadLine());
-                                                if (choice12 == 5)
-                                                {
+                                                                Console.WriteLine("User Input : 2");
+                                                                Console.WriteLine(str + " refusing to play as he is too hungry and should be fed immediately");
+                                                                int choice13 = int.Parse(Console.ReadLine());
+                                                                if (choice13 == 4)
+                                                                {
+                                                                    Console.WriteLine("User Input: 4");
+                                                                    Console.WriteLine(str + "'s Status:");
+                                                                    Console.WriteLine("- Hunger: 3");
+                                                                    Console.WriteLine("- Happiness: 8");
+                                                                    Console.WriteLine("- Health : 7");
+                                                                    Console.WriteLine();
+                                                                    Console.WriteLine("Main Menu:");
+                                                                    Console.WriteLine("1. Feed " + str);
+                                                                    Console.WriteLine("2. Play with " + str);
+                                                                    Console.WriteLine("3. Let " + str + " Rest");
+                                                                    Console.WriteLine("4. Check " + str + "'s Status");
+                                                                    Console.WriteLine("5. Exit");
 
-                                                    Console.WriteLine("User Input: 5");
-                                                    Console.WriteLine("Thank you for playing and feeding " + str + ". Goodbye!");
+                                                                
+                                                                int choice14 = int.Parse(Console.ReadLine());
+                                                                if (choice14 == 5)
+                                                                {
+
+                                                                    Console.WriteLine("User Input: 5");
+                                                                    Console.WriteLine("Thank you for playing and feeding " + str + ". Goodbye!");
+                                                                }
+                                                            }
+                                                        }
+                                                    }
 
 
                                                 }
@@ -371,20 +405,14 @@
                                                 Console.WriteLine("4. Check " + str + "'s Status");
                                                 Console.WriteLine("5. Exit");
                                                 int choice10 = int.Parse(Console.ReadLine());
-                                                if (choice10 == 2)
+                                                if (choice10 == 3)
 
                                                 {
-                                                    Console.WriteLine("User Input : 2");
-                                                    Console.WriteLine(str + " refusing to play as he is too hungry and should be fed immediately");
-                                                }
-                                                int choice11 = int.Parse(Console.ReadLine());
-                                                if (choice11 == 4)
-                                                {
-                                                    Console.WriteLine("User Input: 4");
-                                                    Console.WriteLine(str + "'s Status:");
-                                                    Console.WriteLine("- Hunger: 3");
-                                                    Console.WriteLine("- Happiness: 8");
-                                                    Console.WriteLine("- Health : 7");
+                                                    time++;
+                                                    Console.WriteLine("User Input: 3");
+                                                    Console.WriteLine(str + " is resting");
+                                                    Console.WriteLine();
+                                                    Console.WriteLine("Total time now spend is :" + time + " hours");
                                                     Console.WriteLine();
                                                     Console.WriteLine("Main Menu:");
                                                     Console.WriteLine("1. Feed " + str);
@@ -392,21 +420,59 @@
                                                     Console.WriteLine("3. Let " + str + " Rest");
                                                     Console.WriteLine("4. Check " + str + "'s Status");
                                                     Console.WriteLine("5. Exit");
+                                                    int choice11 = int.Parse(Console.ReadLine());
+                                                    if (choice11 == 4)
+                                                    {
+                                                            Console.WriteLine("User Input: 4");
+                                                            Console.WriteLine(str + "'s Status:");
+                                                            Console.WriteLine("- Hunger: 2");
+                                                            Console.WriteLine("- Happiness: 7");
+                                                            Console.WriteLine("- Health : 6");
+                                                            Console.WriteLine();
+                                                            Console.WriteLine("Main Menu:");
+                                                            Console.WriteLine("1. Feed " + str);
+                                                            Console.WriteLine("2. Play with " + str);
+                                                            Console.WriteLine("3. Let " + str + " Rest");
+                                                            Console.WriteLine("4. Check " + str + "'s Status");
+                                                            Console.WriteLine("5. Exit");
+                                                            int choice12 = int.Parse(Console.ReadLine());
+                                                            if (choice12 == 2)
+                                                            {
 
+                                                                Console.WriteLine("User Input : 2");
+                                                                Console.WriteLine(str + " refusing to play as he is too hungry and should be fed immediately");
+                                                                int choice13 = int.Parse(Console.ReadLine());
+                                                                if (choice13 == 4)
+                                                                {
+                                                                    Console.WriteLine("User Input: 4");
+                                                                    Console.WriteLine(str + "'s Status:");
+                                                                    Console.WriteLine("- Hunger: 3");
+                                                                    Console.WriteLine("- Happiness: 8");
+                                                                    Console.WriteLine("- Health : 7");
+                                                                    Console.WriteLine();
+                                                                    Console.WriteLine("Main Menu:");
+                                                                    Console.WriteLine("1. Feed " + str);
+                                                                    Console.WriteLine("2. Play with " + str);
+                                                                    Console.WriteLine("3. Let " + str + " Rest");
+                                                                    Console.WriteLine("4. Check " + str + "'s Status");
+                                                                    Console.WriteLine("5. Exit");
+
+                                                                
+                                                                int choice14 = int.Parse(Console.ReadLine());
+                                                                if (choice14 == 5)
+                                                                {
+
+                                                                    Console.WriteLine("User Input: 5");
+                                                                    Console.WriteLine("Thank you for playing and feeding " + str + ". Goodbye!");
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                 }
-                                                int choice12 = int.Parse(Console.ReadLine());
-                                                if (choice12 == 5)
-                                                {
-
-                                                    Console.WriteLine("User Input: 5");
-                                                    Console.WriteLine("Thank you for playing and feeding " + str + ". Goodbye!");
-
-
-                                                }
 
 
 
-                                            }
+                                                            }
                                         }
                                     }
                                 }
@@ -580,20 +646,14 @@
                                                 Console.WriteLine("4. Check " + str + "'s Status");
                                                 Console.WriteLine("5. Exit");
                                                 int choice10 = int.Parse(Console.ReadLine());
-                                                if (choice10 == 2)
+                                                if (choice10 == 3)
 
                                                 {
-                                                    Console.WriteLine("User Input : 2");
-                                                    Console.WriteLine(str + " refusing to play as he is too hungry and should be fed immediately");
-                                                }
-                                                int choice11 = int.Parse(Console.ReadLine());
-                                                if (choice11 == 4)
-                                                {
-                                                    Console.WriteLine("User Input: 4");
-                                                    Console.WriteLine(str + "'s Status:");
-                                                    Console.WriteLine("- Hunger: 3");
-                                                    Console.WriteLine("- Happiness: 8");
-                                                    Console.WriteLine("- Health : 7");
+                                                    time++;
+                                                    Console.WriteLine("User Input: 3");
+                                                    Console.WriteLine(str + " is resting");
+                                                    Console.WriteLine();
+                                                    Console.WriteLine("Total time now spend is :" + time + " hours");
                                                     Console.WriteLine();
                                                     Console.WriteLine("Main Menu:");
                                                     Console.WriteLine("1. Feed " + str);
@@ -601,21 +661,61 @@
                                                     Console.WriteLine("3. Let " + str + " Rest");
                                                     Console.WriteLine("4. Check " + str + "'s Status");
                                                     Console.WriteLine("5. Exit");
+                                                    int choice11 = int.Parse(Console.ReadLine());
+                                                    if (choice11 == 4)
+                                                    {
+                                                            Console.WriteLine("User Input: 4");
+                                                            Console.WriteLine(str + "'s Status:");
+                                                            Console.WriteLine("- Hunger: 2");
+                                                            Console.WriteLine("- Happiness: 7");
+                                                            Console.WriteLine("- Health : 6");
+                                                            Console.WriteLine();
+                                                            Console.WriteLine("Main Menu:");
+                                                            Console.WriteLine("1. Feed " + str);
+                                                            Console.WriteLine("2. Play with " + str);
+                                                            Console.WriteLine("3. Let " + str + " Rest");
+                                                            Console.WriteLine("4. Check " + str + "'s Status");
+                                                            Console.WriteLine("5. Exit");
+                                                            int choice12 = int.Parse(Console.ReadLine());
+                                                            if (choice12 == 2)
+                                                            {
 
+                                                                Console.WriteLine("User Input : 2");
+                                                                Console.WriteLine(str + " refusing to play as he is too hungry and should be fed immediately");
+                                                                int choice13 = int.Parse(Console.ReadLine());
+                                                                if (choice13 == 4)
+                                                                {
+                                                                    Console.WriteLine("User Input: 4");
+                                                                    Console.WriteLine(str + "'s Status:");
+                                                                    Console.WriteLine("- Hunger: 3");
+                                                                    Console.WriteLine("- Happiness: 8");
+                                                                    Console.WriteLine("- Health : 7");
+                                                                    Console.WriteLine();
+                                                                    Console.WriteLine("Main Menu:");
+                                                                    Console.WriteLine("1. Feed " + str);
+                                                                    Console.WriteLine("2. Play with " + str);
+                                                                    Console.WriteLine("3. Let " + str + " Rest");
+                                                                    Console.WriteLine("4. Check " + str + "'s Status");
+                                                                    Console.WriteLine("5. Exit");
+
+                                                                
+                                                                int choice14 = int.Parse(Console.ReadLine());
+                                                                if (choice14 == 5)
+                                                                {
+
+                                                                    Console.WriteLine("User Input: 5");
+                                                                    Console.WriteLine("Thank you for playing and feeding " + str + ". Goodbye!");
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                 }
-                                                int choice12 = int.Parse(Console.ReadLine());
-                                                if (choice12 == 5)
-                                                {
-
-                                                    Console.WriteLine("User Input: 5");
-                                                    Console.WriteLine("Thank you for playing and feeding " + str + ". Goodbye!");
-
-
-                                                }
-
-
-
                                             }
+                                       
+
+
+
+                                                            
                                         }
                                     }
                                 }
